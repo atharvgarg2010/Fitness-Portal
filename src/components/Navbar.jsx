@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './logos.png'
+import Logo from './Logog.png'
 import "./style.css"
 import {
     Link

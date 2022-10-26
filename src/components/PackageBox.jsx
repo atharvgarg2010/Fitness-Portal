@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 function PackageBox(props) {
     const {h,p1,p2,p3,p4,i,pr,c} = props
   return (
@@ -11,7 +12,9 @@ function PackageBox(props) {
             <p>{p3}</p>
             <p>{p4}</p>
             <h3>{pr}</h3>
-            <button className="btn">Join Us Now</button>
+            {/* <button className="btn">Join Us Now</button> */}
+        <Link to={"/contact"} className="btn">Join Us Now</Link>
+
         </div>
     </div>
   )

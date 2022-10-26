@@ -99,7 +99,8 @@ function JoinUs() {
         </div>
         <div className="dd">
           <div className="map" style={{ color: "white" }}>
-            <iframe title='3W' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.7789672774156!2d77.12489321500979!3d28.666336182404468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03fe598b8c33%3A0x6b0d545f3245740f!2sUFC%20GYM%2C%20Punjabi%20Bagh!5e0!3m2!1sen!2sin!4v1664541883805!5m2!1sen!2sin" height="450" style={{ "border": "0px" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            {/* <iframe title='3W' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.7789672774156!2d77.12489321500979!3d28.666336182404468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03fe598b8c33%3A0x6b0d545f3245740f!2sUFC%20GYM%2C%20Punjabi%20Bagh!5e0!3m2!1sen!2sin!4v1664541883805!5m2!1sen!2sin" height="450" style={{ "border": "0px" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+            <iframe title="F" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57058783.68329424!2d16.294915833749283!3d29.20614319153442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03d947494ded%3A0x5e058e5bcb353fa4!2sFIT%2034!5e0!3m2!1sen!2sin!4v1666766945016!5m2!1sen!2sin" width="600" height="450" style={{ "border": "0px" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             {/* <img src={Img} alt="" /> */}
           </div>
           <form onSubmit={handleSubmit} className="contact">

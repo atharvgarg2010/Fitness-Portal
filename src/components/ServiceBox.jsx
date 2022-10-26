@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ServiceBox(props) {
     const {h,p,i,c}=props
@@ -8,7 +9,8 @@ function ServiceBox(props) {
       <div className="contents">
         <h1>{h}</h1>
         <p>{p}</p>
-        <button className="btn">Join Us Now</button>
+        <br/>
+        <Link to={"/contact"} className="btn">Join Us Now</Link>
       </div>
     </div>
   )
