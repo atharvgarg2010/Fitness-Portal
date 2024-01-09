@@ -7,7 +7,7 @@ function About() {
 <div className="atharv">
 <div className="contentt">
   <h1>Get to Know About Us</h1>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error cum repellat id tempora, hic optio delectus modi, voluptatem autem labore assumenda, aspernatur velit expedita! Perferendis fugit repellendus animi, enim vel, debitis ab id ullam dolore voluptatibus quisquam voluptatem. A accusantium quo incidunt? Cumque suscipit voluptate dolorum corporis reprehenderit magnam quas quasi vero, reiciendis placeat exercitationem velit ipsa veniam inventore deserunt recusandae obcaecati corrupti, labore nihil ipsam distinctio nisi? Beatae maiores quae quisquam magnam expedita modi tempora mollitia ducimus similique reiciendis est eius explicabo atque hic, incidunt quam, amet minus quia quis! Inventore voluptatibus reiciendis ducimus molestiae. Libero veniam vero fugiat!</p>
+  <p>Welcome to our ultimate wellness hub, your go-to destination for expert advice on fitness, sports, and gym routines. Explore a wealth of tips, personalized workout plans, and insightful blogs to fuel your journey towards a healthier, stronger you. Join our community and embark on a path to holistic well-being, where every click brings you closer to your fitness goals.</p>
 </div>
 <div className="images">
 <img src="https://m.media-amazon.com/images/I/71uv1CtbrkL._SY450_.jpg" width="100px" alt="" />

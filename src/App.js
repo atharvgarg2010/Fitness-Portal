@@ -15,11 +15,11 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
-import Packages from './components/Packages';
-import JoinUs from './components/JU';
 import Footer from './components/Footer';
-
-
+import Login from './components/Login';
+import CreatePost from './components/CreatePost';
+import Blog from './components/Blog';
+import Bmi from './components/Bmi';
 
 function App() {
   return (
@@ -43,11 +43,31 @@ console.log(window.scrollY)
 
     </>
   }/>
-  <Route path='/contact' element={
+  <Route path='/login' element={
     <>
-    <JoinUs />
+    <Login />
 
     </>
+  }/>
+  <Route path='/createpost' element={
+    <>
+    <CreatePost/>
+
+    </>
+    
+  }/>
+    {/* <Route path='/Review' element={
+    <>
+    <Review/>
+
+    </> */}
+    
+  {/* }/> */}
+  <Route path='/bmi' element={
+    <>
+    <Bmi/>
+    </>
+    
   }/>
   <Route path='/' element={
     <>
@@ -55,8 +75,12 @@ console.log(window.scrollY)
     <About />
     <Services/>
     <Gallery/>
-    <Packages/>
-    <JoinUs/>
+    {/* <Packages/> */}
+    <Blog/>
+    {/* <ReviewView/> */}
+    {/* <Try/> */}
+
+    {/* <FirebaseImageUpload/> */}
     </>
   }/>
     </Routes>

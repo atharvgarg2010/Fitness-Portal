@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import homeimage from './home-img.png'
 function Home() {
   let Navigate = useNavigate()
+
+  // window.location.reload();
   const Book = () => {
     setTimeout(() => {
       Navigate("/book")
@@ -12,7 +14,8 @@ function Home() {
     <div className="Saga">
       <h1 className='head2 sgs'>Build Your</h1>
       <h1 className='head sgs'>Perfect Body With Us</h1>
-      <p className='p1 sgs'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet in, facere atque eum dolorem pariatur asperiores ea quisquam nesciunt commodi aut impedit at fuga recusandae soluta necessitatibus architecto temporibus culpa rerum voluptate reiciendis delectus. Corporis numquam dolorem illo sapiente?
+      <p className='p1 sgs' width="300px">
+Transform your physique and redefine your strength with our comprehensive fitness programs. Join us on the journey to build your perfect body, achieving optimal health, and unlocking your full potential.
         <br />
         <button className="btn sgs" onClick={Book}>Join Us Now</button>
         
@@ -21,6 +24,8 @@ function Home() {
 
       <div className='home'>
         <img src={homeimage} alt="" />
+
+
       </div>
 
 

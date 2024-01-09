@@ -1,9 +1,12 @@
 import React from 'react'
 import GalleryBox from './GalleryBox'
-import Gal1 from "./Gallery1.png"
-import Gal2 from "./Gallery2.png"
-import Gal3 from "./Gallery3.png"
-import Gal5 from "./Gallery5.1.png"
+import Gal1 from "./yoga.png"
+import Gal2 from "./chess.jpeg"
+import Gal3 from "./medi.jpg"
+import Gal4 from "./gymg.png"
+import Gal5 from "./table.jpg"
+import Gal6 from "./gymb.png"
+
 function Gallery() {
     return (
         <>
@@ -20,11 +23,11 @@ function Gallery() {
             </div>
             <div className="gallery">
             <GalleryBox c="left" i={Gal1} q={"Hustle For The Muscle"}/>
-            <GalleryBox c="right" i={Gal2} q={"Let The Gain Begins"}/>
+            <GalleryBox c="right" i={Gal2} q={"Mental health is very important"}/>
             <GalleryBox c="left" i={Gal3} q="When You Want To Give Up Remember Why You Started"/>
-            <GalleryBox c="right" q={"Sweat Off The Stress"} i="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"/>
+            <GalleryBox c="right" q={"Sweat Off The Stress"} i={Gal4}/>
             <GalleryBox c="left" q="No Pain No Gain" i={Gal5}/>
-            <GalleryBox c="right" q={"Be Stronger Than Your Excuses"} i="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
+            <GalleryBox c="right" q={"Be Stronger Than Your Excuses"} i={Gal6}/>
             </div>
         </>
     )

@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './logo.png'
+import Logo from './logo (1).png'
 // import { useNavigate } from 'react-router-dom';
 import {Link} from 'react-router-dom'
 
@@ -27,7 +27,7 @@ function Footer() {
       </div>
 
     </footer>
-<h1>All Rights Reserved By The Fitness Factory</h1>
+<h1>All Rights Reserved By Sports Tips and Gym Tips</h1>
 
     </div>
   )
